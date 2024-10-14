@@ -1,0 +1,86 @@
+
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 100px;
+    align-items: flex-start;
+  }
+  
+  .game-board {
+    margin-right: 20px;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+  
+  /* Board and square styles */
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect */
+  .square:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* When a square is clicked, show different colors for X and O */
+  .square:active {
+    background-color: #e6e6e6;
+  }
+  
+  .square.X {
+    color: #ff5252;
+  }
+  
+  .square.O {
+    color: #2196f3;
+  }
+  
+  /* Status message */
+  .status {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Move history buttons */
+  .game-info ol {
+    padding-left: 30px;
+  }
+  
+  .game-info li {
+    margin-bottom: 10px;
+  }
+  
+  .game-info button {
+    background-color: #fff;
+    border: 1px solid #999;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .game-info button:hover {
+    background-color: #ddd;
+  }
+  

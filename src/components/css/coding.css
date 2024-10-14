@@ -1,0 +1,241 @@
+.leet-main {
+    padding: 40px;
+    background-color: rgb(247,248,250);
+}
+
+.header-container {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header img {
+    height: 100px;
+    width: 100px;
+}
+
+.header div {
+    font-size: 80px;
+}
+
+.leetcode-body {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px 0px ;
+}
+
+.user-container {
+    background-color: rgb(255,255,255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    box-shadow: 5px 5px 15px rgb(215, 217, 221),-5px 5px 15px rgb(215, 217, 221);
+    border-radius: 5%;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user-details img {
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.Name-container {
+    display: flex;
+    flex-direction: column;
+    font-family: Quicksand-Light;
+    font-size: 20px;
+    gap: 30px;
+}
+
+.rank {
+    color: #6a6565;
+}
+
+.location-container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Quicksand-Light;
+}
+
+.location-container img {
+    height: 20px;
+    width: 20px;
+    padding-top: 10px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: row;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+.location-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#java img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.location-java {
+    padding: 0px 5px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(242,243,244);
+}
+
+.leet-border-line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.leet-border-line {
+    width: 85%;
+    background-color: #c9bfbf;
+    height: 2px;
+    border-radius: 2%;
+}
+
+.language-container {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Quicksand-Light;
+}
+
+.language-header {
+    font-size: 25px;
+}
+
+.languages {
+    padding-top: 20px;
+}
+
+.language-java {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.language-problem-count {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.language-problem-count p {
+    font-size: 15px;
+}
+
+.language-java-name {
+    width: auto;
+    padding: 2px 5px ;
+    border-radius: 10px;
+    background-color: rgb(242,243,244);
+}
+
+.days {
+    display: flex;
+    background-color: violet;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.problems-container-card {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 20px; */
+    width: 50%;
+    background-color: yellow;
+}
+
+.problems-solved {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.level {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.solved-count {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    /* height: 100%; */
+}
+
+.solved-count-number {
+    font-size: 30px;
+}
+
+.solved-count p {
+    font-size: 13px;
+}
+
+.badges-container-card {
+    width: 50%;
+    background-color: blue;
+}
+
+.badges-image {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 150px;
+    width: auto;
+}
+
+.badges-images img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
