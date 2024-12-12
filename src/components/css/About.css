@@ -1,0 +1,145 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 40px;
+  background-color: white;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me {
+  height: 35px;
+  width: 35%;
+  background-color: rgb(245, 223, 78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  font-size: 20px;
+}
+
+.know-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Quicksand-Light;
+}
+
+.expe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.matter-container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 60px;
+}
+
+.name-container {
+  width: 100%;
+  font-family: Quicksand-Light;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 30px;
+}
+
+.matter-name {
+  font-family: Quicksand-Light;
+  border-bottom-color: rgb(245, 223, 78);
+  border-bottom-style: solid;
+}
+
+.matter {
+  width: 100%;
+  font-family: Quicksand-Light;
+  font-size: 20px;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
+  font-family: Quicksand-Light;
+  font-size: 20px;
+}
+
+.details-head {
+  color: rgb(121, 121, 121);
+}
+
+.details-ans {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.years {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  height: 300px; 
+}
+
+.number-container {
+  height: 40%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellow-cirlce {
+  width: 100%;
+  border-radius: 50%;
+  background-color: rgb(245, 223, 78);
+}
+
+.number h1 {
+  width: 150px;
+  height: 150px;
+  font-size: 8rem; 
+  font-family: Quicksand-Light;
+  margin: 0;
+  line-height: 1;
+  flex-grow: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Quicksand-Light;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.border-line-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.border-line {
+  border-bottom: solid;
+  border-bottom-color: rgb(245, 223, 78);
+  width: 50%;
+}
