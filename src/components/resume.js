@@ -37,18 +37,18 @@ const resume = () => {
                 <div className="experience-header">My Projects</div>
                 <div className="experience-data">
                     <div className="class-archive">
-                        <div className="class-archive-header">
+                        <div className="class-archive-header" id="resume-summary">
                             Class Archive
                         </div>
-                        <div className="class-archive-summary">
+                        <div className="class-archive-summary" id="resume-summary">
                         A web-based platform designed to store and manage lecture materials for educational institutions. The platform allows students to easily access and download various types of files (PDFs, images, presentations, etc.), organized by subject for convenient browsing. Developed using React.js for the frontend, Node.js with Express.js for the backend, and Firebase for hosting. The project provides a centralized repository for students to access important resources while enabling admin functionality for managing the content.
                         </div>
                     </div>
                     <div className="gatepass">
-                        <div className="gatepass-header">
+                        <div className="gatepass-header" id="resume-summary">
                             Gatepass
                         </div>
-                        <div className="gatepass-summary">
+                        <div className="gatepass-summary" id="resume-summary">
                         A college security management system designed to streamline the student gate pass approval process. Students request permission from their department Head of Department (HOD) for leave, and the HOD verifies and approves the request. Upon approval, the system updates the database, granting authorized students the ability to exit the campus. Security personnel at the gate access real-time data to verify and confirm which students have permission to leave. The project improves campus security and simplifies the gate pass process by ensuring efficient communication between students, HOD, and security staff.
                         </div>
                     </div>

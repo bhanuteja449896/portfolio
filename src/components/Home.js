@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "./css/Home.css"
 import Dp from './assests/dp.jpg';
 import User from './assests/user.png';
 import Call from './assests/call.png';
 
 export const Home = () => {
-  const [width, setWidth] = useState(window.innerWidth);
+  // const [width, setWidth] = useState(window.innerWidth);
 
   function Info(){
     return(
