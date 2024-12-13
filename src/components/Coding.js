@@ -122,7 +122,7 @@ function Coding() {
                         <p>Solved</p>
                       </div>
                     </div>
-                  </div>
+                  </div>  
                 </div>
                 <div className="problems-solved-level">
                   <div className="problem-solved-easy">
