@@ -2,6 +2,7 @@ import React from "react";
 import "./css/About.css";
 
 function About() {
+  const projects=3;
   return (
     <div className="main">
       <div className="about-container">
@@ -27,7 +28,7 @@ function About() {
           <div className="number-container">
             <div className="yellow-cirlce">
               <div className="number">
-                <h1>2</h1>
+                <h1>{projects}</h1>
               </div>
             </div>
           </div>

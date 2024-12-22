@@ -4,7 +4,10 @@ import home from './assests/ad1/home.png'
 import login from './assests/ad1/login.png'
 import notes from './assests/ad1/notes.png'
 import timetable from './assests/ad1/timetable.png'
-
+import upilogin from './assests/spring/upi_login.png'
+import upi_home from './assests/spring/upi_home.png'
+import upi_home1 from './assests/spring/upi_home1.png'
+import wallet from './assests/spring/wallet.png'
 import "./css/portfolio.css"
 
 const portfolio = () => {
@@ -28,6 +31,23 @@ const portfolio = () => {
                     <img src={login} alt="" />
                     <img src={admin} alt="" />
                     <img src={timetable} alt="" />
+                  </div>
+                  <div className="ad1-github">
+                    <h3>Github : <h4 onClick={()=>window.open("https://github.com/bhanuteja449896/ad1")}>https://github.com/bhanuteja449896/ad1</h4></h3>
+                  </div>
+                </div>
+                <div className="ad1">
+                  <div className="ad1-header">
+                    Wallet Payment
+                  </div>
+                  <div className="ad1-images">
+                    <img src={upilogin} alt="" />
+                    <img src={upi_home} alt="" />
+                    <img src={upi_home1} alt="" />
+                    <img src={wallet} alt="" />
+                  </div>
+                  <div className="ad1-github">
+                    <h3>Github : <h4 onClick={()=>window.open("https://github.com/bhanuteja449896/Wallet")}>https://github.com/bhanuteja449896/ad1</h4></h3>
                   </div>
                 </div>
             </div>

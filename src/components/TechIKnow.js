@@ -6,11 +6,30 @@ import Java from "./assests/java.png";
 import Js from "./assests/js.png";
 import Python from "./assests/python.png";
 import Spring from "./assests/springboot.png";
+import Firebase from "./assests/firebase.png";
 
 import "./css/TechIKnow.css"; // Make sure the CSS file exists
 
 function TechIKnow() {
   const techs = [
+    {
+      title: "Python",
+      image: Python,
+      description:
+        "Python is a versatile language known for its simplicity and readability. It powers applications across data science, web development, AI, and automation, making it a popular choice for developers.",
+    },
+    {
+      title: "Java",
+      image: Java,
+      description:
+        'Java is an object-oriented language used in web, mobile, and enterprise applications. Its "write once, run anywhere" capability makes it highly portable, especially for large-scale systems and Android apps.',
+      },
+      {
+        title: "GitHub",
+        image: Github,
+        description:
+          "GitHub is a platform for version control and collaboration, built on Git. It helps developers manage repositories, track changes, and work together efficiently on software projects.",
+      },
     {
       title: "React Js",
       image: ReactJs,
@@ -30,29 +49,16 @@ function TechIKnow() {
         "JavaScript is essential for building dynamic web applications. Used for both client-side and server-side development, it helps handle events, manage state, and build user interfaces efficiently.",
     },
     {
-      title: "Python",
-      image: Python,
-      description:
-        "Python is a versatile language known for its simplicity and readability. It powers applications across data science, web development, AI, and automation, making it a popular choice for developers.",
-    },
-    {
-      title: "Java",
-      image: Java,
-      description:
-        'Java is an object-oriented language used in web, mobile, and enterprise applications. Its "write once, run anywhere" capability makes it highly portable, especially for large-scale systems and Android apps.',
-    },
-    {
-      title: "GitHub",
-      image: Github,
-      description:
-        "GitHub is a platform for version control and collaboration, built on Git. It helps developers manage repositories, track changes, and work together efficiently on software projects.",
-    },
-    {
       title: "Spring Boot",
       image: Spring,
       description:
         "Spring Boot simplifies Java development by offering a pre-built framework with configuration and setup. It allows developers to build enterprise-grade applications quickly and efficiently.",
     },
+    {
+      title: "Firebase",
+      image: Firebase,
+      description: "Firebase offers real-time databases, authentication, and hosting, enabling fast, scalable web and mobile app development with minimal effort."
+    }
   ];
 
   return (

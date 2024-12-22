@@ -27,71 +27,79 @@
 
 .home-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center; /* Center both the image and text vertically */
   height: 625px;
   flex-direction: row;
   padding-top: 20px;
+  gap: 50px; /* Adds space between the image and text */
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
   text-align: left;
   padding-left: 60px;
+  width: 50%; /* Ensure the text part has a fixed width */
 }
 
 .info-name {
-  font-family: Quicksand-Light;
+  font-family: 'Quicksand', sans-serif;
   font-size: 30px;
-  left: 0px ;
+  color: black;
 }
 
 .info-reactjs-dev {
   margin-top: 10px;
-  font-family: Quicksand-Light;
-  font-size: 50px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px; /* Decreased the font size from 50px to 40px */
+  color: black;
 }
+
 
 .info-location {
-  font-family: Quicksand-Light;
+  font-family: 'Quicksand', sans-serif;
   font-size: 20px;
   margin-top: 10px;
-}
-
-.view-works-container {
-  display: flex;
-  margin-top: 20px;
-}
-
-.view-works {
-  color: white;
-  background-color: black;
-  padding: 10px 15px;
-  border-radius: 5px;
+  color: black;
 }
 
 .Image-container {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%; /* Limit the image container to avoid stretching */
 }
 
 .image-wrapper {
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
 }
 
 .image-wrapper img {
-    height: 95%;
-    width: 95%;
-    border-radius: 50%;
+  height: 95%;
+  width: 95%;
+  border-radius: 50%;
+}
 
+.info-reactjs-dev span {
+  font-weight: bold;
+}
+
+.info-reactjs-dev span:last-child {
+  font-weight: normal;
+  display: inline-block;
+  animation: blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
