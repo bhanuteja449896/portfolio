@@ -60,7 +60,7 @@
 /* Tech image inside the card */
 .tech-image {
   height: 150px;
-  width: 160px;
+  width: auto;
   margin-bottom: 15px;
 }
 

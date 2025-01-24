@@ -18,6 +18,7 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
+    cursor: pointer;
 }
 
 .header img {
@@ -34,6 +35,9 @@
     align-items: center;
     flex-direction: row;
     padding: 30px 0px ;
+    justify-content: space-between;
+    margin-top: 0px;
+    /* border-top: 0px; */
 }
 
 .user-container {
@@ -43,7 +47,13 @@
     flex-direction: column;
     padding: 20px 0px;
     box-shadow: 5px 5px 15px rgb(215, 217, 221),-5px 5px 15px rgb(215, 217, 221);
-    border-radius: 5%;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.user-container:hover{
+    box-shadow: 10px 10px 25px rgb(160, 162, 165), -10px 10px 25px rgb(160, 162, 165);
 }
 
 .user-details {
@@ -175,67 +185,235 @@
 
 .days {
     display: flex;
-    background-color: violet;
+    /* background-color: yellow; */
+    flex-direction: column;
     width: 100%;
+    margin-top: 0px;
+    gap: 20px;
+}
+
+.problems {
+    width: 100%;
+}
+
+
+.problems {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.problems-solved-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(215, 217, 221),-5px 5px 15px rgb(215, 217, 221);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.problems-solved-container:hover{
+    box-shadow: 10px 10px 25px rgb(160, 162, 165), -10px 10px 25px rgb(160, 162, 165);
+}
+
+.badges-container {
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(215, 217, 221),-5px 5px 15px rgb(215, 217, 221);
+    transition: box-shadow 0.3s ease;
+}
+
+.badges-container:hover{
+    box-shadow: 10px 10px 25px rgb(160, 162, 165), -10px 10px 25px rgb(160, 162, 165);
+}
+
+.problems-solved-number {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+    height: 200px;
+}
+
+.problems-solved-number-container {
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1.7px solid black;
+}
+
+.solved-number {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 70px;
+    /* border: 1px solid black; */
+}
+
+.solved-number span {
+    font-family: Quicksand-Light;
+    font-size: 40px;
+}
+
+.solved-number p {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 4px;
+}
+
+.solved-tick-container {
+    width: 100%;
+}
+
+.solved-tick {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: Quicksand-Light;
+}
+
+.solved-tick img {
+    height: 30px;
+    width: 30px;
+}
+
+.solved-tick p {
+    display: flex;
+    align-items: flex-end;
+    justify-self: center;
+    font-size: 20px;
+}
+
+
+.problems-solved-level {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.problem-solved-easy {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    justify-self: center;
+    gap: 5px;
+    font-family: Quicksand-Light;
+    font-size: 15px;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(250,250,250);
+    border-radius: 5%;
+    padding: 8px 0px;
 }
 
-.problems-container-card {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-    /* gap: 20px; */
-    width: 50%;
-    background-color: yellow;
+.problem-solved-easy-header {
+    color: skyblue;
 }
 
-.problems-solved {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+.problem-solved-medium-header {
+    color: orange ;
 }
 
-.level {
+.problem-solved-hard-header{
+    color: red;
+}
+
+.badges-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-top: 0px;
 }
 
-.solved-count {
+.badges-container p {
+    height: 10%;
+    font-family: Quicksand-Light;
+    font-size: 30px ;
     display: flex;
-    flex-direction: row;
-    /* align-items: center; */
-    justify-content: center;
-    /* height: 100%; */
+    align-items: flex-start;
+    margin-top: 0px;
+    margin-left: 10px;
+    cursor: pointer;
 }
 
-.solved-count-number {
-    font-size: 30px;
-}
-
-.solved-count p {
-    font-size: 13px;
-}
-
-.badges-container-card {
-    width: 50%;
-    background-color: blue;
-}
-
-.badges-image {
+.badges-images {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
-    height: 150px;
-    width: auto;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 20px;
 }
 
 .badges-images img {
     height: 100px;
     width: 100px;
-    object-fit: cover;
+}
+
+.total-days {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:5px 10px ;
+    background-color: white;
+    font-family: Quicksand-Light;
+    color: #6a6565;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(215, 217, 221),-5px 5px 15px rgb(215, 217, 221);
+    padding-bottom: 40px;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.total-days:hover{
+    box-shadow: 10px 10px 25px rgb(160, 162, 165), -10px 10px 25px rgb(160, 162, 165);
+}
+
+.total-days-streak {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.total-active-days {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.max-streak {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.max-streak p {
+    font-size: 20px;
+    color: black;
+}
+.total-active-days p {
+    font-size: 20px;
+    color: black;
 }

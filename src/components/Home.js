@@ -10,9 +10,12 @@ export const Home = () => {
   function Info(){
     return(
       <div className="info">
-        <h1>Hi I'm Makkineni Bhanu Teja</h1>
-        <h2>React Js Developer</h2>
-        <p>Based in Hyderabad, India.</p>
+        <div className="info-name">Hi I'm Makkineni Bhanu Teja</div>
+        <div className="info-reactjs-dev">React Js Developer</div>
+        <div className="info-location">Based in Hyderabad, India.</div>
+        {/* <div className="view-works-container">
+          <div className="view-works">View My Works</div>
+        </div> */}
       </div>
     )
   }

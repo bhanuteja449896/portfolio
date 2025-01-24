@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   font-size: 20px;
+  padding: 0px 100px;
 }
 
 .header-item img {
@@ -35,27 +36,40 @@
 .info {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   text-align: left;
   padding-left: 60px;
 }
 
-.info h1 {
-  font-family: "Quicksand-Light";
+.info-name {
+  font-family: Quicksand-Light;
   font-size: 30px;
+  left: 0px ;
 }
 
-.info h2 {
-  font-family: "Quicksand-Light";
+.info-reactjs-dev {
+  margin-top: 10px;
+  font-family: Quicksand-Light;
   font-size: 50px;
-  margin-top: 15px;
 }
 
-.info p {
-  font-family: "Quicksand-Light";
+.info-location {
+  font-family: Quicksand-Light;
   font-size: 20px;
-  margin-top: 15px;
+  margin-top: 10px;
+}
+
+.view-works-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.view-works {
+  color: white;
+  background-color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
 }
 
 .Image-container {
