@@ -1,0 +1,81 @@
+/* Container for the entire tech section */
+.tech-container {
+  padding: 20px;
+  background-color: rgb(221, 221, 221);
+  text-align: center;
+}
+
+/* Centering the "What I Know" section */
+.know-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+/* "What I Know" section title */
+.whatIknow {
+  display: flex;
+  justify-content: center;
+  font-family: Quicksand-Light;
+  align-items: center;
+  width: 30%;
+  height: 35px;
+  background-color: rgb(245, 223, 78);
+}
+
+/* Technologies section title */
+.technologies {
+  padding: 30px;
+  font-family: Quicksand-Light;
+  font-size: 40px;
+}
+
+/* Tech grid layout */
+.tech-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+/* Individual tech card styling */
+.tech-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  width: 350px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for tech card */
+.tech-card:hover {
+  transform: translateY(-10px); /* Moves the card upwards */
+  box-shadow: 0 16px 24px rgba(0, 0, 0, 0.2); /* Adds a deeper shadow on hover */
+  background-color: rgb(221, 221, 221);
+}
+
+/* Tech image inside the card */
+.tech-image {
+  height: 150px;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+/* Tech title inside the card */
+.tech-title {
+  padding: 20px 0px;
+  font-size: 30px;
+  font-family: Quicksand-Light;
+  margin: 10px 0;
+}
+
+/* Paragraph styling inside the card */
+p {
+  text-align: left;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.9;
+}
